@@ -1,0 +1,145 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  .lar { display: none; }
+}
+
+@media screen and (min-width: 992px) {
+  .med { display: none; }
+}
+
+.med {
+  margin-bottom: 15px;
+}
+
+.container {
+  max-width: 1100px;
+}
+
+.page-content {
+  display: none;
+}
+
+.blue {
+  color: #5b9bc6;
+}
+
+#cover-image {
+  padding-top: 30px;
+  width:100%;
+}
+
+.btn-consult {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn-consult:hover {
+  background-color: #5b9bc6;
+  border-color: #5b9bc6;
+
+  color: white;
+}
+
+.body-about {
+  padding-top: 30px;
+}
+
+.regular {
+  font-size: 18px;
+}
+
+.gallery-img {
+  width: 245px;
+}
+
+.gallery-div {
+  height: 245px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.gallery-div:hover {
+  opacity: 0.5;
+}
+
+.form-control {
+  border-color: black;
+  border-radius: 0px;
+}
+
+.crop {
+  max-height: 470px;
+  overflow: hidden;
+}
+
+.lead {
+  padding-top: 20px;
+}
+
+.btn-primary {
+  border-radius: 20px;
+  border:0;
+}
+
+.navbar-custom {
+    padding-top: 10px;
+    background-color:white;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:black;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+    color: #5b9bc6;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+    color: black;
+    background-color:transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: white;
+}
+
+
+
+.navbar-custom .navbar-brand {
+    color:black;
+}
+.navbar-brand:hover {
+  color: #5b9bc6
+}
+.navbar-custom .navbar-toggle {
+    background-color:#eeeeee;
+}
+.navbar-custom .icon-bar {
+    background-color:black;
+}
+
+.footer {
+  background-color: #EEEEEE;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  display: none;
+}
