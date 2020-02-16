@@ -15,13 +15,13 @@
     <meta property="og:image" content="images/pexels.jpeg" />
     <meta property="og:description" content="Hertfordshire-based architect specialising in private residential, extensions, refurbishments, conservation, remodelling and new build houses" />
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
     <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <script src="script.js"></script>
+    
 
       <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
   </head>
@@ -52,7 +52,12 @@
     <!-- Begin page content -->
     <div class="container page-content">
       <div class="crop">
-        <img id="cover-image" src="images/pexels.jpeg">
+        <!-- <img id="cover-image" src="images/pexels.jpeg"> -->
+        <img id="cover-image" srcset="images/pexels-small.jpg 480w,
+                images/pexels-large.webp 800w"
+        sizes="(max-width: 600px) 480px,
+                800px"
+        src="images/pexels-large.webp" alt="Architect panels">
       </div>
       <div class="page-header">
         <h1>BEN LUMLEY / <span class="blue">ARCHITECT</span></h1>
@@ -84,5 +89,8 @@
       <br><p>Website Design by <a href="mailto:samfredlumley@gmail.com">Sam Lumley</a></p>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>
