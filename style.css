@@ -136,6 +136,10 @@ a {
     background-color:transparent;
 }
 
+.last-nav-item {
+  padding-right: 0px !important;
+}
+
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus,
 .navbar-custom .navbar-nav > .active > a:hover,
