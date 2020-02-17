@@ -1,6 +1,14 @@
+:root {
+  --lumley-blue: #1d517d;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   padding-top: 50px;
+}
+
+a {
+  color: var(--lumley-blue);
 }
 
 @media screen and (max-width: 991px) {
@@ -24,7 +32,7 @@ body {
 }
 
 .blue {
-  color: #5b9bc6;
+  color: var(--lumley-blue);
 }
 
 #cover-image {
@@ -42,8 +50,8 @@ body {
 }
 
 .btn-consult:hover {
-  background-color: #5b9bc6;
-  border-color: #5b9bc6;
+  background-color: var(--lumley-blue);
+  border-color: var(--lumley-blue);
   color: white;
 }
 
@@ -103,7 +111,7 @@ body {
 }
 
 .navbar-custom .navbar-nav > li > a:hover {
-    color: #5b9bc6;
+    color: var(--lumley-blue);
 }
 
 .navbar-custom .navbar-nav > .active > a {
@@ -126,7 +134,7 @@ body {
     color:black;
 }
 .navbar-brand:hover {
-  color: #5b9bc6
+  color: var(--lumley-blue)
 }
 .navbar-custom .navbar-toggle {
     background-color:#eeeeee;
