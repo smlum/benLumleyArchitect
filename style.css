@@ -35,24 +35,36 @@ a {
   color: var(--lumley-blue);
 }
 
+.black {
+  color: black;
+}
+
+.contact-header {
+  margin-bottom: 20px;
+}
+
+.lead {
+  padding-top: 0px;
+}
+
 #cover-image {
   padding-top: 30px;
   width:100%;
 }
 
-.btn-consult {
+.btn-consult:hover {
   background-color: white;
   color: black;
+}
+
+.btn-consult {
+  background-color: var(--lumley-blue);
+  border-color: var(--lumley-blue);
+  color: white;
   border-radius: 20px;
   border: 1px solid black;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-}
-
-.btn-consult:hover {
-  background-color: var(--lumley-blue);
-  border-color: var(--lumley-blue);
-  color: white;
 }
 
 .body-about {
@@ -90,10 +102,6 @@ a {
   overflow: hidden;
 }
 
-.lead {
-  padding-top: 20px;
-}
-
 .btn-primary {
   border-radius: 20px;
   border:0;
@@ -112,6 +120,15 @@ a {
 
 .navbar-custom .navbar-nav > li > a:hover {
     color: var(--lumley-blue);
+}
+
+.footer-brand {
+  font-size: 18px;
+}
+
+.footer-brand:hover {
+  color: var(--lumley-blue) !important;
+  text-decoration: none;
 }
 
 .navbar-custom .navbar-nav > .active > a {
